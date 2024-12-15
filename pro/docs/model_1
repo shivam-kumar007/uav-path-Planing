@@ -1,0 +1,25 @@
+# UAV Path Planning using Dijkstra's Algorithm
+
+This project implements a UAV path planning system using Dijkstra's Algorithm for finding the optimal path in a grid environment with obstacles.
+
+## Overview
+
+The UAV (Unmanned Aerial Vehicle) will navigate through a grid environment from a start point to a goal point. The grid contains obstacles, and the algorithm aims to find the shortest path around them using Dijkstra's algorithm, ensuring the UAV avoids blocked cells.
+
+## Features
+
+- Dijkstra's algorithm for optimal pathfinding
+- 2D grid environment with obstacles
+- Visualization of the path on the grid
+
+## Requirements
+
+- Python 3.x
+- matplotlib (for path visualization)
+
+## Setup
+
+1. Clone this repository.
+   ```bash
+   git clone https://github.com/your-username/uav_path_planning.git
+   cd uav_path_planning
